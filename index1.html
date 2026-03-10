@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Swami Vivekanand Helping Hand - Education, Poverty Relief, Women Empowerment</title>
-    <link rel="stylesheet" href="/PrayagNGO-Website\NEW\home.css">
+    <link rel="stylesheet" href="home.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Slab:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -25,12 +25,12 @@
             
             <nav>
                 <ul class="nav-links" id="navLinks">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#causes">Our Events</a></li>
-                    <li><a href="#gallery">Gallery</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><button class="donate-btn">Login</button></li>
+                    <li class="opt-list"><a href="#home">Home</a></li>
+                    <li class="opt-list"><a href="#about">About Us</a></li>
+                    <li class="opt-list"><a href="#causes">Our Events</a></li>
+                    <li class="opt-list"><a href="#gallery">Gallery</a></li>
+                    <li class="opt-list"><a href="#contact">Contact</a></li>
+                    <li class="login"><a href="Login.html"><button class="donate-btn">Login</button></a></li>
                 </ul>
             </nav>
         </div>
@@ -42,7 +42,7 @@
             <h1>Change Begin With Youth</h1>
             <p>Swami Vivekanand Helping Hand is dedicated to eradicating poverty, providing quality education, and empowering women across underserved communities. Join us in our mission to create a better tomorrow.</p>
             <div class="hero-btns">
-                <a href="#causes" class="btn btn-primary">Donate Now</a>
+                <a href="Donate.html" class="btn btn-primary">Donate Now</a>
                 <!-- <a href="#contact" class="btn btn-secondary">Get Involved</a> -->
             </div>
         </div>
@@ -70,6 +70,35 @@
     </section>
 </section>
 
+<section class="action-section">
+
+    <div class="action-box donate">
+        <a href="Donate.html">
+      <div class="content">
+        <h2>DONATE NOW</h2>
+        <p>Your gift goes further with SVHH Group. Donate today to change lives.</p>
+      </div>
+      <div class="arrow">›</div>
+    </a>
+    </div>
+    <div class="action-box volunteer">
+      <div class="content">
+        <h2>VOLUNTEER LOCALLY</h2>
+        <p>Reach out to your local SVHH Group about how you can make an impact.</p>
+      </div>
+      <div class="arrow">›</div>
+    </div>
+  
+    <div class="action-box share">
+      <div class="content">
+        <h2>SHARE YOUR VOICE</h2>
+        <p>Tell legislators about the changes you want to see in your community.</p>
+      </div>
+      <div class="arrow">›</div>
+    </div>
+  
+  </section>
+
 <!-- News Section -->
 <aside class="news">
     <div class="container">
@@ -80,24 +109,27 @@
         <div class="news-container">
 
             <div class="news-card">
+                <img src="/NEW\images\camp.jpg" alt="Education Camp">
                 <h3>Free Education Camp</h3>
                 <p>Our NGO organized a free education camp for underprivileged children in rural villages.</p>
                 <span class="news-date">March 2026</span>
             </div>
 
             <div class="news-card">
+                <img src="/NEW\images\children skills.jpg" alt="Women Skils">
                 <h3>Women Skill Training</h3>
-                <p>More than 200 women completed our vocational training program to become financially independent.</p>
+                <p>More than 200 girls completed our vocational training program to become financially independent.</p>
                 <span class="news-date">February 2026</span>
             </div>
 
             <div class="news-card">
+                <img src="/NEW\images\food distribution.jpg" alt="Food Distribution">
                 <h3>Food Distribution Drive</h3>
                 <p>Volunteers distributed food kits to poor families during our recent social outreach program.</p>
                 <span class="news-date">January 2026</span>
             </div>
-
         </div>
+        <div class="button"><a href="News.html"><button>More News</button></a></div>
     </div>
 </aside>
 
@@ -141,28 +173,32 @@
     </section>
 
     <!-- Stats Section -->
-    <section class="stats">
-        <div class="container">
-            <div class="stats-container">
-                <div class="stat-item">
-                    <h3>15,000+</h3>
-                    <p>Children Educated</p>
-                </div>
-                <div class="stat-item">
-                    <h3>10,000+</h3>
-                    <p>Women Empowered</p>
-                </div>
-                <div class="stat-item">
-                    <h3>500+</h3>
-                    <p>Villages Reached</p>
-                </div>
-                <div class="stat-item">
-                    <h3>200+</h3>
-                    <p>Volunteers</p>
-                </div>
+    <section class="impact-section" aria-labelledby="impact-heading">
+        <div class="impact-inner">
+          <div class="impact-left">
+            <h2 id="impact-heading">SWAMI VIVEKANAND HELPING HAND<br>GLOBAL NETWORK FOR<br>COMMUNITY ACTION</h2>
+            <p>We bring people and resources together to tackle our communities’ toughest challenges.</p>
+          </div>
+    
+          <div class="impact-right" role="list" aria-label="Impact statistics">
+            <div class="stat" role="listitem">
+              <div class="number">30+</div>
+              <div class="label">countries make up our worldwide network</div>
             </div>
+    
+            <div class="stat" role="listitem">
+              <div class="number">48M</div>
+              <div class="label">lives Swami Vivekanand Helping Hand changes annually</div>
+            </div>
+    
+            <div class="stat" role="listitem">
+              <div class="number">1,100+</div>
+              <div class="label">Swami Vivekanand Helping Hand serve thousands of communities globally</div>
+            </div>
+          </div>
         </div>
-    </section>
+      </section>
+    
 
     <!-- Gallery Section -->
     <section class="section" id="gallery">
@@ -171,12 +207,12 @@
                 <h2>Our Work in Action</h2>
             </div>
             <div class="gallery-container">
-                <div class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Children learning">
+                <!-- <div class="gallery-item">
+                    <img src="" alt="Children learning">
                     <div class="gallery-overlay">
                         <i class="fas fa-search-plus fa-2x"></i>
                     </div>
-                </div>
+                </div> -->
                 <div class="gallery-item">
                     <img src="https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Women empowerment workshop">
                     <div class="gallery-overlay">
@@ -236,10 +272,10 @@
                         </div>
                     </div>
                     <div class="social-icons">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"><img src="/Images\Logos\fb.icon.png" alt="fb"></i></a>
+                        <a href="#"><i class="fab fa-twitter"><img src="/Images\Logos\insta.icon.png" alt="X"></i></a>
+                        <a href="#"><i class="fab fa-instagram"><img src="/Images\Logos\linkedin.icon.png" alt=""></i></a>
+                        <a href="#"><i class="fab fa-youtube"><img src="/Images\Logos\youtube-icon.png" alt=""></i></a>
                     </div>
                 </div>
                 <div class="contact-form">
@@ -262,7 +298,7 @@
             <div class="footer-container">
                 <div class="footer-logo">
                     <div class="logo">
-                        <div class="logo-icon">SV</div>
+                        <div class="logo-icon">SVHH</div>
                         <div class="logo-text">Swami Vivekanand <span>Helping Hand</span></div>
                     </div>
                     <p>Inspired by Swami Vivekananda's teachings, we strive to create a society where every individual has the opportunity to realize their potential and live with dignity.</p>
@@ -288,7 +324,9 @@
                 </div>
             </div>
             <div class="copyright">
-                <p>&copy; 2023 Swami Vivekanand Helping Hand. All Rights Reserved.</p>
+                <p>&copy; 2026 Swami Vivekanand Helping Hand. All Rights Reserved.
+                    <strong>Developed by Akrit Mann Singh</strong>
+                </p>
             </div>
         </div>
     </footer>
@@ -321,7 +359,7 @@
         
         // Donate button functionality
         document.querySelector('.donate-btn').addEventListener('click', () => {
-            alert('Thank you for your interest in donating! Our donation portal will open shortly.');
+           
             // In a real implementation, this would redirect to a donation page
         });
         
@@ -359,4 +397,6 @@
         });
     </script>
 </body>
+</html>
+
 </html>
